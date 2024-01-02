@@ -114,8 +114,8 @@ export default defineComponent({
         const store = useStore();
         const router = useRouter();
         const credentials = reactive({
-            email: null,
-            password: null,
+            email: 'admin@example.com',
+            password: '12345678',
         });
         const onRequestSend = ref({
             error: "",
